@@ -1,4 +1,4 @@
-let studentMarks = '91';
+let studentMarks = 91;
 //Here the variable 'studentMarks' is declared which will take in values that are student marks.
 
 //Next, the function studentGradeGenerator takes in studentMarks as a parameter and analyzes it before giving out the correct grade
