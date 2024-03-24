@@ -3,11 +3,11 @@
 
 This repository contains solutions to three toy problems:
 
-1. <span style ="font-weight: bold">Student Grade Generator:</span> A program that prompts the user to input student marks and outputs the corresponding grade based on predefined criteria.
+1. Student Grade Generator: A program that prompts the user to input student marks and outputs the corresponding grade based on predefined criteria.
 
-2. <span style ="font-weight: bold">Speed Detector:</span> A program that determines demerit points for a car's speed violations and checks if the driver's license should be suspended.
+2. Speed Detector: A program that determines demerit points for a car's speed violations and checks if the driver's license should be suspended.
 
-3. <span style ="font-weight: bold">Net Salary Calculator:</span> A program to calculate an individual's net salary based on their basic salary, benefits, and various deductions.
+3. Net Salary Calculator: A program to calculate an individual's net salary based on their basic salary, benefits, and various deductions.
 
 <h2>Set Up Instructions</h2>
 
