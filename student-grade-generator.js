@@ -1,9 +1,9 @@
-let studentMarks;
-//Here we declare the variable 'studentMarks' which will take in values that are student marks.
+let studentMarks = '91';
+//Here the variable 'studentMarks' is declared which will take in values that are student marks.
 
 //Next, the function studentGradeGenerator takes in studentMarks as a parameter and analyzes it before giving out the correct grade
 function studentGradeGenerator(studentMarks){
-    if (studentMarks > 79){
+    if (studentMarks > 79 && studentMarks <= 100){
         return 'A';
     }
     //For studentMarks values greater than 79, the result is A.
@@ -23,12 +23,16 @@ function studentGradeGenerator(studentMarks){
     }
     //For studentMarks values greater than 40 but less than 49, the result is D.
 
-    else if (studentMarks < 40){
+    else if (studentMarks < 40 && studentMarks >= 0){
         return 'E';
     }
     //For studentMarks values less than 40, the result is E.
+
+    else {
+        return 'Input correct marks 0 - 100'
+    }
 }
 
-console.log (studentGradeGenerator());
-//Here we put the marks into the function and print out the student grade into the console.
+console.log (studentGradeGenerator(studentMarks));
+//Here the student grade is printed out into the console.
 
