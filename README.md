@@ -69,4 +69,4 @@ The program computes:
 ---
 
 ### Author  
-Arnold Mwangakala | LinkedIn - https://linkedin.com/in/arnoldmwangakala
+Arnold Mwangakala | [LinkedIn](https://linkedin.com/in/arnoldmwangakala)
