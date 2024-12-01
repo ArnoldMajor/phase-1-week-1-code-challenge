@@ -56,11 +56,11 @@ The program computes:
 #### **2. Clone the Repository**  
 1. Open your terminal and run:  
    ```bash
-   git clone https://github.com/yourusername/Phase-0-project-my-personal-portfolio
+   git clone https://github.com/yourusername/phase-1-week-1-code-challenge
    ```  
 2. Navigate into the project directory:  
    ```bash
-   cd Phase-0-project-my-personal-portfolio
+   cd phase-1-week-1-code-challenge
    ```  
 
 #### **3. Open Locally**  
