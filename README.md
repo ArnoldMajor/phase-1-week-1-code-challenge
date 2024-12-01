@@ -63,7 +63,7 @@ The program computes:
    cd phase-1-week-1-code-challenge
    ```  
 
-#### **3. Open Locally**  
+#### **3. Run Locally**  
 1. Run the JavaScript file in your preferred environment.
 
 ---
