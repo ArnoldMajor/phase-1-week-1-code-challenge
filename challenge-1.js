@@ -1,4 +1,4 @@
-// Setting up the prompt module to prompt the user to input marks
+// Setting up the prompt module to prompt the user to input marks, you have to install the "prompt-sync" module (see README file)
 const prompt = require("prompt-sync")();
 let promptInput = Number(prompt("Please enter the marks: ", ""))
 
