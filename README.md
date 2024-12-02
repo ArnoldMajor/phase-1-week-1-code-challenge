@@ -1,7 +1,5 @@
 
-# README
-
-## Code Challenge Submission
+# Week 1 Code Challenge Submission
 
 This repository contains solutions to three toy problems written in **JavaScript**. Below is a breakdown of the challenges.
 
