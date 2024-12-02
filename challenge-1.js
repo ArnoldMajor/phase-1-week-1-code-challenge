@@ -39,5 +39,5 @@ function studentGrades(studentMarks) {
 if (promptInput) {
     studentGrades(studentMarks);
 } else if (!promptInput) {
-    console.log("Please put in a number!")
+    console.log("Please put in the marks as a number!")
 }
