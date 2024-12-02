@@ -62,7 +62,13 @@ The program computes:
    ```  
 
 #### **3. Run Locally**  
-1. Run the JavaScript file in your preferred environment.
+1. Install the prompt-sync Node.js module in your local environment. This module will enable prompts to work in your local terminal.<br>
+   Run this code in your terminal:
+   ```bash
+      npm install prompt-sync
+   ```
+
+2. Run the JavaScript file in your preferred environment.
 
 ---
 
