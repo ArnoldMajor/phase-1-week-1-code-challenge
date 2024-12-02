@@ -29,7 +29,7 @@ const speedDetector = (vehicleSpeed) => {
     }
 }
 
-// This conditions checks whether the prompt input exists and is a number then runs the grading function to print out the grade
+// This conditions checks whether the prompt input exists and is a number then runs the speedDetector function to print out the speed
 if (promptInput) {
     speedDetector(vehicleSpeed);
 } else if (!promptInput) {
