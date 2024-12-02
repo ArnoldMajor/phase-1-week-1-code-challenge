@@ -1,5 +1,17 @@
-// The variable studentMarks is declared, this variable will hold the value of the student's marks and pass it into the function 
-let studentMarks;
+// Setting up the prompt module to prompt the user to input marks
+const prompt = require("prompt-sync")();
+let promptInput = Number(prompt("Please enter the marks: ", ""))
+
+// Function userPrompt returns the value that has been put in by the user
+function userPrompt() {
+    return promptInput;
+}
+
+// User prompt is called first to trigger the input prompt 
+userPrompt();
+
+// The variable studentMarks is declared, this variable will hold the value of the student's marks which is equal to the prompt input
+const studentMarks = promptInput;
 
 // Function studentGrades takes the student's marks as an argument and calculates the corresponding grade
 function studentGrades(studentMarks) {
@@ -7,25 +19,25 @@ function studentGrades(studentMarks) {
     if (studentMarks >= 0 && studentMarks <= 100) {
         // This series of conditions checks the student's marks and matches it to the correspoding grade
         if (studentMarks > 79) {
-            return "Student grade: A";
+            console.log("Student grade: A");
         } else if (studentMarks >= 60 && studentMarks <= 79) {
-            return "Student grade: B"
+            console.log("Student grade: B");
         } else if (studentMarks >= 50 && studentMarks <= 59) {
-            return "Student grade: C"
+            console.log("Student grade: C");
         } else if (studentMarks >= 40 && studentMarks <= 49) {
-            return "Student grade: D"
+            console.log("Student grade: D");
         } else if (studentMarks < 40) {
-            return "Student grade: E"
+            console.log("Student grade: E");
         }
     }
     // If the marks are out of range, this reminder is triggered
-    else return "Marks should be 0 - 100!"
+    else console.log("Marks should be 0 - 100!");
 
 }
 
-// Function is tested with various scores
-console.log(studentGrades(80))
-console.log(studentGrades(79))
-console.log(studentGrades(56))
-console.log(studentGrades(41))
-console.log(studentGrades(39))
+// This conditions checks whether the prompt input exists and is a number then runs the grading function to print out the grade
+if (promptInput) {
+    studentGrades(studentMarks);
+} else if (!promptInput) {
+    console.log("Please put in a number!")
+}
