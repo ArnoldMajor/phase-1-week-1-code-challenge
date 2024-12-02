@@ -1,5 +1,17 @@
-// Variable vehicleSpeed is declared to the value of a vehicle's speed
-let vehicleSpeed;
+// Setting up the prompt module to prompt the user to input speed, you have to install the "prompt-sync" module (see README file)
+const prompt = require("prompt-sync")();
+let promptInput = Number(prompt("Please enter the speed: ", ""))
+
+// Function userPrompt returns the value that has been put in by the user
+function userPrompt() {
+    return promptInput;
+}
+
+// User prompt is called first to trigger the input prompt 
+userPrompt();
+
+// Variable vehicleSpeed is declared to hold the value of a vehicle's speed
+const vehicleSpeed = promptInput;
 
 // Function speedDetector takes in vehicleSpeed as an argument and calculates whether it is within or above the speed limit
 const speedDetector = (vehicleSpeed) => {
@@ -17,7 +29,9 @@ const speedDetector = (vehicleSpeed) => {
     }
 }
 
-// Function is tested with an argument of 70, 80 & 150, the outputs are expected to be Ok, Points: 2 & License suspended respectively
-speedDetector(70)
-speedDetector(80)
-speedDetector(150)
+// This conditions checks whether the prompt input exists and is a number then runs the grading function to print out the grade
+if (promptInput) {
+    speedDetector(vehicleSpeed);
+} else if (!promptInput) {
+    console.log("Please put in the speed as a number!")
+}
